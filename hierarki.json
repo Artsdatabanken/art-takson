@@ -28,9 +28,9 @@
   ],
   "meta": {
     "tittel": "Hierarki",
-    "produsertUtc": "2019-09-13T13:53:38.300Z",
+    "produsertUtc": "2019-09-17T20:25:53.334Z",
     "utgiver": "Artsdatabanken",
-    "url": null,
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/hierarki.json",
     "tool": {
       "name": "art-lastejobb"
     },
