@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "kode": "AR",
+      "tittel": {
+        "la": "Biota",
+        "nb": "Art"
+      }
+    }
+  ],
+  "meta": {
+    "tittel": "Type",
+    "produsertUtc": "2019-09-19T03:00:33.016Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.json",
+    "tool": {
+      "name": "art-kode-lastejobb"
+    },
+    "elementer": 1
+  }
+}
