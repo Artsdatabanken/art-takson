@@ -28,11 +28,11 @@
   ],
   "meta": {
     "tittel": "Hierarki",
-    "produsertUtc": "2019-09-19T09:46:22.451Z",
+    "produsertUtc": "2019-09-25T22:04:59.176Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/hierarki.json",
     "tool": {
-      "name": "art-kode-lastejobb"
+      "name": "art-takson-lastejobb"
     },
     "elementer": 25
   }
