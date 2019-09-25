@@ -2,6 +2,7 @@
   "items": [
     {
       "kode": "AR",
+      "nivå": "Biologisk klassifikasjon",
       "tittel": {
         "nb": "Art",
         "sn": "Biota"
@@ -10,11 +11,11 @@
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-09-19T09:46:51.167Z",
+    "produsertUtc": "2019-09-25T10:16:59.454Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.json",
     "tool": {
-      "name": "art-kode-lastejobb"
+      "name": "art-takson-lastejobb"
     },
     "elementer": 1
   },
