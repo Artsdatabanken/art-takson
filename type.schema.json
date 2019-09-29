@@ -7,21 +7,57 @@
       "items": {
         "type": "object",
         "properties": {
+          "foreldre": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "kode": {
+            "type": "string"
+          },
+          "nivå": {
             "type": "string"
           },
           "tittel": {
             "type": "object",
             "properties": {
-              "la": {
+              "nb": {
                 "type": "string"
               },
-              "nb": {
+              "sn": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "nn": {
                 "type": "string"
               }
             }
+          },
+          "url": {
+            "type": "string"
+          },
+          "autor": {
+            "type": "object",
+            "properties": {
+              "navn": {
+                "type": "string"
+              },
+              "år": {
+                "type": "number"
+              }
+            }
           }
-        }
+        },
+        "required": [
+          "foreldre",
+          "nivå",
+          "tittel",
+          "url",
+          "autor"
+        ]
       }
     },
     "meta": {
@@ -44,6 +80,9 @@
           "properties": {
             "name": {
               "type": "string"
+            },
+            "url": {
+              "type": "null"
             }
           }
         },
@@ -52,5 +91,15 @@
         }
       }
     }
+  },
+  "meta": {
+    "tittel": "Type.schema",
+    "produsertUtc": "2019-09-29T17:40:35.292Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.schema.json",
+    "tool": {
+      "name": "art-takson-lastejobb"
+    },
+    "elementer": 3
   }
 }

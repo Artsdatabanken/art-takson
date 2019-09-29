@@ -1,34 +1,109 @@
 {
   "items": [
-    "Rike",
-    "Underrike",
-    "Rekke",
-    "Underrekke",
-    "Overklasse",
-    "Klasse",
-    "Underklasse",
-    "Infraklasse",
-    "Kohort",
-    "Overorden",
-    "Orden",
-    "Underorden",
-    "Infraorden",
-    "Overfamilie",
-    "Familie",
-    "Underfamilie",
-    "Tribus",
-    "Undertribus",
-    "Slekt",
-    "Underslekt",
-    "Seksjon",
-    "Art",
-    "Underart",
-    "Varietet",
-    "Form"
+    {
+      "prefiks": "",
+      "tittel": "Form"
+    },
+    {
+      "prefiks": "var.",
+      "tittel": "Varietet"
+    },
+    {
+      "prefiks": "subsp.",
+      "tittel": "Underart"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Art"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Seksjon"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Underslekt"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Slekt"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Undertribus"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Tribus"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Underfamilie"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Familie"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Overfamilie"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Infraorden"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Underorden"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Orden"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Overorden"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Kohort"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Infraklasse"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Underklasse"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Klasse"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Overklasse"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Underrekke"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Rekke"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Underrike"
+    },
+    {
+      "prefiks": "",
+      "tittel": "Rike"
+    }
   ],
   "meta": {
     "tittel": "Hierarki",
-    "produsertUtc": "2019-09-25T22:04:59.176Z",
+    "produsertUtc": "2019-09-29T17:40:01.007Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/hierarki.json",
     "tool": {

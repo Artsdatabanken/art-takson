@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "prefiks": {
+            "type": "string"
+          },
+          "tittel": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "prefiks",
+          "tittel"
+        ]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "tittel": {
+          "type": "string"
+        },
+        "produsertUtc": {
+          "type": "string"
+        },
+        "utgiver": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "null"
+            }
+          }
+        },
+        "elementer": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "meta": {
+    "tittel": "Hierarki.schema",
+    "produsertUtc": "2019-09-29T17:40:01.010Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/hierarki.schema.json",
+    "tool": {
+      "name": "art-takson-lastejobb"
+    },
+    "elementer": 3
+  }
+}
