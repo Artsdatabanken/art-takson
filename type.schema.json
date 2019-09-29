@@ -53,6 +53,7 @@
         },
         "required": [
           "foreldre",
+          "kode",
           "nivå",
           "tittel",
           "url",
@@ -97,7 +98,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-09-29T18:29:54.468Z",
+    "produsertUtc": "2019-09-29T20:21:22.840Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.schema.json",
     "tool": {
