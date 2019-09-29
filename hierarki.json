@@ -103,12 +103,13 @@
   ],
   "meta": {
     "tittel": "Hierarki",
-    "produsertUtc": "2019-09-29T17:40:01.007Z",
+    "produsertUtc": "2019-09-29T18:29:19.843Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/hierarki.json",
     "tool": {
       "name": "art-takson-lastejobb"
     },
     "elementer": 25
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/hierarki.schema.json#"
 }

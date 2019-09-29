@@ -90,11 +90,14 @@
           "type": "number"
         }
       }
+    },
+    "$schema": {
+      "type": "string"
     }
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-09-29T17:40:35.292Z",
+    "produsertUtc": "2019-09-29T18:29:54.468Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.schema.json",
     "tool": {
