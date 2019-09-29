@@ -39,7 +39,7 @@
           "url": {
             "type": "string"
           },
-          "autor": {
+          "autoritet": {
             "type": "object",
             "properties": {
               "navn": {
@@ -57,7 +57,7 @@
           "nivå",
           "tittel",
           "url",
-          "autor"
+          "autoritet"
         ]
       }
     },
@@ -98,7 +98,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-09-29T20:21:22.840Z",
+    "produsertUtc": "2019-09-29T20:26:23.501Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.schema.json",
     "tool": {
