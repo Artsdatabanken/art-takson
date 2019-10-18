@@ -49,6 +49,17 @@
                 "type": "number"
               }
             }
+          },
+          "synonym": {
+            "type": "object",
+            "properties": {
+              "sn": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
           }
         },
         "required": [
@@ -57,7 +68,8 @@
           "nivå",
           "tittel",
           "url",
-          "autoritet"
+          "autoritet",
+          "synonym"
         ]
       }
     },
@@ -98,7 +110,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-09-29T20:26:23.501Z",
+    "produsertUtc": "2019-10-18T07:51:29.545Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.schema.json",
     "tool": {
