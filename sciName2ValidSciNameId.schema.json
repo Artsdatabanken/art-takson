@@ -7,20 +7,19 @@
       "items": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string"
+          "koder": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
-          "name": {
-            "type": "string"
-          },
-          "valid": {
+          "sn": {
             "type": "string"
           }
         },
         "required": [
-          "id",
-          "name",
-          "valid"
+          "koder",
+          "sn"
         ]
       }
     },
@@ -54,11 +53,14 @@
           "type": "number"
         }
       }
+    },
+    "$schema": {
+      "type": "string"
     }
   },
   "meta": {
     "tittel": "Sciname2validscinameid.schema",
-    "produsertUtc": "2019-10-18T07:51:15.210Z",
+    "produsertUtc": "2019-10-20T15:19:01.533Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/sciName2ValidSciNameId.schema.json",
     "tool": {
