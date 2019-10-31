@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "kode": "AR",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-1",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-127715",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-196",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-293",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-295",
+      "value": "AR-48103"
+    },
+    {
+      "kode": "AR-296",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-48022",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-48023",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-48024",
+      "value": "AR-48025"
+    },
+    {
+      "kode": "AR-48100",
+      "value": "AR-48103"
+    },
+    {
+      "kode": "AR-48101",
+      "value": "AR-48103"
+    },
+    {
+      "kode": "AR-48102",
+      "value": "AR-48103"
+    }
+  ],
+  "meta": {
+    "tittel": "Karakteristisk art",
+    "produsertUtc": "2019-10-31T09:01:49.298Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/karakteristisk_art.json",
+    "tool": {
+      "name": "art-takson-lastejobb"
+    },
+    "elementer": 13
+  },
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/karakteristisk_art.schema.json#"
+}
