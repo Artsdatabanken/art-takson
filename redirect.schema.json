@@ -61,9 +61,9 @@
   },
   "meta": {
     "tittel": "Redirect.schema",
-    "produsertUtc": "2019-10-18T07:51:27.094Z",
+    "produsertUtc": "2019-11-11T08:25:54.204Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/redirect.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/redirect.schema.json",
     "tool": {
       "name": "art-takson-lastejobb"
     },

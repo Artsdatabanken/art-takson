@@ -118,9 +118,9 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-20T17:49:25.767Z",
+    "produsertUtc": "2019-11-11T08:25:58.938Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/type.schema.json",
     "tool": {
       "name": "art-takson-lastejobb"
     },

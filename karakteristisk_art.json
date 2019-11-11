@@ -55,13 +55,13 @@
   ],
   "meta": {
     "tittel": "Karakteristisk art",
-    "produsertUtc": "2019-10-31T09:01:49.298Z",
+    "produsertUtc": "2019-11-11T08:26:00.287Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/karakteristisk_art.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/karakteristisk_art.json",
     "tool": {
       "name": "art-takson-lastejobb"
     },
     "elementer": 13
   },
-  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/karakteristisk_art.schema.json#"
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/karakteristisk_art.schema.json#"
 }

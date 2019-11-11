@@ -57,9 +57,9 @@
   },
   "meta": {
     "tittel": "Karakteristisk art.schema",
-    "produsertUtc": "2019-10-31T09:01:49.301Z",
+    "produsertUtc": "2019-11-11T08:26:00.291Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-kode/master/karakteristisk_art.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/karakteristisk_art.schema.json",
     "tool": {
       "name": "art-takson-lastejobb"
     },
