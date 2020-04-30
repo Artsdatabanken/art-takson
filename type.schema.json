@@ -1,129 +1,472 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "items": {
-      "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "$schema": {
+        "type": "string"
+      },
       "items": {
-        "type": "object",
-        "properties": {
-          "foreldre": {
-            "type": "array",
-            "items": {
+        "items": {
+          "properties": {
+            "autoritet": {
+              "properties": {
+                "navn": {
+                  "type": "string"
+                },
+                "år": {
+                  "type": "number"
+                }
+              },
+              "type": "object"
+            },
+            "finnesINorge": {
+              "type": "boolean"
+            },
+            "foreldre": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "kode": {
+              "type": "string"
+            },
+            "kodeautor": {
+              "type": "string"
+            },
+            "nivå": {
+              "type": "string"
+            },
+            "synonym": {
+              "properties": {
+                "sn": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            },
+            "tittel": {
+              "properties": {
+                "nb": {
+                  "type": "string"
+                },
+                "nn": {
+                  "type": "string"
+                },
+                "sn": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "url": {
               "type": "string"
             }
           },
-          "kode": {
+          "required": [
+            "finnesINorge",
+            "foreldre",
+            "kode",
+            "nivå",
+            "tittel",
+            "url",
+            "autoritet",
+            "kodeautor",
+            "synonym"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
             "type": "string"
           },
-          "nivå": {
-            "type": "string"
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "elementer": {
+                        "type": "number"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "produsertUtc": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "items": {
+                          "properties": {
+                            "elementer": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "produsertUtc": {
+                              "type": "string"
+                            },
+                            "source": {
+                              "items": {
+                                "properties": {
+                                  "elementer": {
+                                    "type": "number"
+                                  },
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "produsertUtc": {
+                                    "type": "string"
+                                  },
+                                  "source": {
+                                    "items": {
+                                      "properties": {
+                                        "elementer": {
+                                          "type": "number"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "produsertUtc": {
+                                          "type": "string"
+                                        },
+                                        "source": {
+                                          "items": {},
+                                          "type": "array"
+                                        },
+                                        "tittel": {
+                                          "type": "string"
+                                        },
+                                        "tool": {
+                                          "properties": {
+                                            "commit": {
+                                              "type": "string"
+                                            },
+                                            "name": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "type": "object"
+                                        },
+                                        "url": {
+                                          "type": "null"
+                                        },
+                                        "utgiver": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "tittel",
+                                        "produsertUtc",
+                                        "utgiver",
+                                        "url",
+                                        "tool",
+                                        "elementer",
+                                        "source"
+                                      ],
+                                      "type": "object"
+                                    },
+                                    "type": "array"
+                                  },
+                                  "tittel": {
+                                    "type": "string"
+                                  },
+                                  "tool": {
+                                    "properties": {
+                                      "commit": {
+                                        "type": "string"
+                                      },
+                                      "name": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "url": {
+                                    "type": "null"
+                                  },
+                                  "utgiver": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "name",
+                                  "tittel",
+                                  "produsertUtc",
+                                  "utgiver",
+                                  "url",
+                                  "tool",
+                                  "elementer",
+                                  "source"
+                                ],
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "tittel": {
+                              "type": "string"
+                            },
+                            "tool": {
+                              "properties": {
+                                "commit": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "url": {
+                              "type": "null"
+                            },
+                            "utgiver": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "tittel",
+                            "produsertUtc",
+                            "utgiver",
+                            "url",
+                            "tool",
+                            "elementer",
+                            "source"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "tittel": {
+                        "type": "string"
+                      },
+                      "tool": {
+                        "properties": {
+                          "commit": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "url": {
+                        "type": "null"
+                      },
+                      "utgiver": {
+                        "type": "string"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "null"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name"
+              ],
+              "type": "object"
+            },
+            "type": "array"
           },
           "tittel": {
-            "type": "object",
+            "type": "string"
+          },
+          "tool": {
             "properties": {
-              "nb": {
+              "commit": {
                 "type": "string"
               },
-              "sn": {
+              "name": {
                 "type": "string"
               },
               "url": {
-                "type": "string"
-              },
-              "nn": {
-                "type": "string"
+                "type": "null"
               }
-            }
+            },
+            "type": "object"
           },
           "url": {
             "type": "string"
           },
-          "autoritet": {
-            "type": "object",
-            "properties": {
-              "navn": {
-                "type": "string"
-              },
-              "år": {
-                "type": "number"
-              }
-            }
-          },
-          "finnesINorge": {
-            "type": "boolean"
-          },
-          "kodeautor": {
+          "utgiver": {
             "type": "string"
-          },
-          "synonym": {
-            "type": "object",
-            "properties": {
-              "sn": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              }
-            }
           }
         },
-        "required": [
-          "foreldre",
-          "kode",
-          "nivå",
-          "tittel",
-          "url",
-          "autoritet",
-          "finnesINorge",
-          "kodeautor",
-          "synonym"
-        ]
+        "type": "object"
       }
     },
-    "meta": {
-      "type": "object",
-      "properties": {
-        "tittel": {
-          "type": "string"
-        },
-        "produsertUtc": {
-          "type": "string"
-        },
-        "utgiver": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "tool": {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "url": {
-              "type": "null"
-            }
-          }
-        },
-        "elementer": {
-          "type": "number"
-        }
-      }
-    },
-    "$schema": {
-      "type": "string"
-    }
+    "type": "object"
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-11-11T08:25:58.938Z",
+    "produsertUtc": "2020-04-30T06:55:26.031Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/tree/type.schema.json",
     "tool": {
-      "name": "art-takson-lastejobb"
+      "name": "art-takson-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
     },
-    "elementer": 3
+    "elementer": 3,
+    "source": [
+      {
+        "name": "38_finnesINorge",
+        "tittel": "38 finnesinorge",
+        "produsertUtc": "2020-04-30T06:50:44.192Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "art-takson-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+        },
+        "elementer": 139341,
+        "source": [
+          {
+            "name": "37_synonym",
+            "tittel": "37 synonym",
+            "produsertUtc": "2020-04-30T06:50:42.337Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "art-takson-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+            },
+            "elementer": 139341,
+            "source": [
+              {
+                "name": "35_map2",
+                "tittel": "35 map2",
+                "produsertUtc": "2020-04-30T06:50:39.842Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "art-takson-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                },
+                "elementer": 139341,
+                "source": [
+                  {
+                    "name": "30_map",
+                    "tittel": "30 map",
+                    "produsertUtc": "2020-04-30T06:50:37.451Z",
+                    "utgiver": "Artsdatabanken",
+                    "url": null,
+                    "tool": {
+                      "name": "art-takson-lastejobb",
+                      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                    },
+                    "elementer": 209578,
+                    "source": [
+                      {
+                        "name": "20_taxon_to_json",
+                        "tittel": "20 taxon to json",
+                        "produsertUtc": "2020-04-30T06:50:29.629Z",
+                        "utgiver": "Artsdatabanken",
+                        "url": null,
+                        "tool": {
+                          "name": "art-takson-lastejobb",
+                          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                        },
+                        "elementer": 209578,
+                        "source": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "35_synonym",
+                "tittel": "35 synonym",
+                "produsertUtc": "2020-04-30T06:50:40.583Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "art-takson-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                },
+                "elementer": 70142,
+                "source": [
+                  {
+                    "name": "30_map",
+                    "tittel": "30 map",
+                    "produsertUtc": "2020-04-30T06:50:37.451Z",
+                    "utgiver": "Artsdatabanken",
+                    "url": null,
+                    "tool": {
+                      "name": "art-takson-lastejobb",
+                      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                    },
+                    "elementer": 209578,
+                    "source": [
+                      {
+                        "name": "20_taxon_to_json",
+                        "tittel": "20 taxon to json",
+                        "produsertUtc": "2020-04-30T06:50:29.629Z",
+                        "utgiver": "Artsdatabanken",
+                        "url": null,
+                        "tool": {
+                          "name": "art-takson-lastejobb",
+                          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                        },
+                        "elementer": 209578,
+                        "source": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "art-takson-ubehandlet/type"
+      }
+    ]
   }
 }
