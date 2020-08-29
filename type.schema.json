@@ -345,74 +345,74 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2020-04-30T06:55:26.031Z",
+    "produsertUtc": "2020-08-29T17:50:44.596Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/tree/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/type.schema.json",
     "tool": {
       "name": "art-takson-lastejobb",
-      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
     },
     "elementer": 3,
     "source": [
       {
         "name": "38_finnesINorge",
         "tittel": "38 finnesinorge",
-        "produsertUtc": "2020-04-30T06:50:44.192Z",
+        "produsertUtc": "2020-08-29T17:50:37.918Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "art-takson-lastejobb",
-          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
         },
-        "elementer": 139341,
+        "elementer": 139424,
         "source": [
           {
             "name": "37_synonym",
             "tittel": "37 synonym",
-            "produsertUtc": "2020-04-30T06:50:42.337Z",
+            "produsertUtc": "2020-08-29T17:50:34.606Z",
             "utgiver": "Artsdatabanken",
             "url": null,
             "tool": {
               "name": "art-takson-lastejobb",
-              "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+              "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
             },
-            "elementer": 139341,
+            "elementer": 139424,
             "source": [
               {
                 "name": "35_map2",
                 "tittel": "35 map2",
-                "produsertUtc": "2020-04-30T06:50:39.842Z",
+                "produsertUtc": "2020-08-29T17:50:30.604Z",
                 "utgiver": "Artsdatabanken",
                 "url": null,
                 "tool": {
                   "name": "art-takson-lastejobb",
-                  "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                  "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
                 },
-                "elementer": 139341,
+                "elementer": 139424,
                 "source": [
                   {
                     "name": "30_map",
                     "tittel": "30 map",
-                    "produsertUtc": "2020-04-30T06:50:37.451Z",
+                    "produsertUtc": "2020-08-29T17:50:27.497Z",
                     "utgiver": "Artsdatabanken",
                     "url": null,
                     "tool": {
                       "name": "art-takson-lastejobb",
-                      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
                     },
-                    "elementer": 209578,
+                    "elementer": 209901,
                     "source": [
                       {
                         "name": "20_taxon_to_json",
                         "tittel": "20 taxon to json",
-                        "produsertUtc": "2020-04-30T06:50:29.629Z",
+                        "produsertUtc": "2020-08-29T17:50:17.868Z",
                         "utgiver": "Artsdatabanken",
                         "url": null,
                         "tool": {
                           "name": "art-takson-lastejobb",
-                          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
                         },
-                        "elementer": 209578,
+                        "elementer": 209901,
                         "source": []
                       }
                     ]
@@ -422,38 +422,38 @@
               {
                 "name": "35_synonym",
                 "tittel": "35 synonym",
-                "produsertUtc": "2020-04-30T06:50:40.583Z",
+                "produsertUtc": "2020-08-29T17:50:31.760Z",
                 "utgiver": "Artsdatabanken",
                 "url": null,
                 "tool": {
                   "name": "art-takson-lastejobb",
-                  "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                  "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
                 },
-                "elementer": 70142,
+                "elementer": 70382,
                 "source": [
                   {
                     "name": "30_map",
                     "tittel": "30 map",
-                    "produsertUtc": "2020-04-30T06:50:37.451Z",
+                    "produsertUtc": "2020-08-29T17:50:27.497Z",
                     "utgiver": "Artsdatabanken",
                     "url": null,
                     "tool": {
                       "name": "art-takson-lastejobb",
-                      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                      "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
                     },
-                    "elementer": 209578,
+                    "elementer": 209901,
                     "source": [
                       {
                         "name": "20_taxon_to_json",
                         "tittel": "20 taxon to json",
-                        "produsertUtc": "2020-04-30T06:50:29.629Z",
+                        "produsertUtc": "2020-08-29T17:50:17.868Z",
                         "utgiver": "Artsdatabanken",
                         "url": null,
                         "tool": {
                           "name": "art-takson-lastejobb",
-                          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/879b3d296ac23e3748e510a5af3745219f46acd1"
+                          "commit": "https://github.com/Artsdatabanken/art-takson-lastejobb/master/17e1cf4d7b6982ad050add3d4208c6a561f79e30"
                         },
-                        "elementer": 209578,
+                        "elementer": 209901,
                         "source": []
                       }
                     ]
